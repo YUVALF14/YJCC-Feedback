@@ -1,0 +1,74 @@
+.registration-confirmation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  direction: rtl;
+}
+
+.confirmation-content {
+  background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+.confirmation-content h2 {
+  color: #00838f;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.confirmation-details {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.confirmation-details h3 {
+  color: #00838f;
+  margin-bottom: 1rem;
+}
+
+.confirmation-details h4 {
+  color: #006064;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+.event-info {
+  margin: 1.5rem 0;
+  text-align: right;
+}
+
+.event-info p {
+  margin: 0.5rem 0;
+  color: #00838f;
+}
+
+.confirmation-message {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px dashed #b2ebf2;
+}
+
+.confirmation-message p {
+  margin: 0.5rem 0;
+  color: #00838f;
+}
+
+.contact {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #006064;
+  margin-top: 1rem;
+}

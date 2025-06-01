@@ -1,0 +1,105 @@
+.feedback-manager {
+  padding: 2rem;
+  direction: rtl;
+}
+
+.feedback-manager h2 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.access-code-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.access-code-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.access-code-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.access-code-form input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #b2ebf2;
+  border-radius: 4px;
+  font-size: 1.1rem;
+}
+
+.access-code-form input:focus {
+  outline: none;
+  border-color: #00838f;
+}
+
+.access-code-form button {
+  width: 100%;
+  padding: 1rem;
+  background: #00838f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.access-code-form button:hover {
+  background: #006064;
+}
+
+.feedbacks-list {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.feedback-item {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.feedback-item:hover {
+  transform: translateY(-2px);
+}
+
+.feedback-item h3 {
+  color: #3498db;
+  margin-bottom: 1rem;
+}
+
+.feedback-item p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.feedback-item strong {
+  color: #2c3e50;
+}
+
+.no-feedbacks {
+  text-align: center;
+  color: #7f8c8d;
+  grid-column: 1 / -1;
+  padding: 2rem;
+}
+
+.unauthorized {
+  text-align: center;
+  color: #e74c3c;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
